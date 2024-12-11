@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-server: config-server
+          default-label: config-server
           uri: https://github.com/BlanFT/microservicios
           search-paths: config-data
 
